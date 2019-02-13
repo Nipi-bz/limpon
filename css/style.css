@@ -57,16 +57,12 @@ h1 {
 .page-stat .title-h2 {
     max-width: 500;
 }
-.wrap {
-    max-width: 1110px;
-    margin: 0 auto;
 }
 .box-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 53px;
-    margin-bottom: 305px;
 }
 .logo {
     display: block;
