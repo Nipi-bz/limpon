@@ -57,13 +57,18 @@ h1 {
 .page-stat .title-h2 {
     max-width: 500;
 }
+.wrap {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .box-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 53px;
-}
+    margin-bottom: 305px;
+    }
 .logo {
     display: block;
     width: 181px;
@@ -82,12 +87,22 @@ h1 {
     justify-content: flex-end;
 }
 .nav>li {
-    padding: 0 15px;
-    margin-top: 15px;
+    padding: 0 20px;
     margin-left: 20px;
 }
 .nav-item {
     color: #6e7ea9;
+    letter-spacing: 2px;
+}
+.screen-img {
+    display: block;
+    background-image: url(../image/picture1.png);
+    background-repeat: no-repeat;
+    width: 895px;
+    height: 740px;
+    position: absolute;
+    right: 0;
+    top: 189px;
 }
 .bth-primary {
     color: #fff;
@@ -142,6 +157,39 @@ h1 {
 .bth-group a + a {
     margin-left: 15px;
 }
+.list-company {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.list-company-item {
+    display: block;
+}
+.company-one {
+    background-image: url(../image/sp1.png);
+    flex-basis: 198px;
+    height: 58px;
+}
+.company-two {
+    background-image: url(../image/sp2.png);
+    flex-basis: 200px;
+    height: 69px;
+}
+.company-three {
+    background-image: url(../image/sp3.png);
+    flex-basis: 201px;
+    height: 47px;
+}
+.company-four{
+    background-image: url(../image/sp4.png);
+    flex-basis: 200px;
+    height: 69px;
+}
 .grid h2 {
     font-size: 40px;
     color: #192b59;
@@ -165,10 +213,15 @@ h1 {
     font-weight: 600;
     color: #1085e4;
 }
-.page-subscribe {
-    font-size:50px;
+.page-subscribe h2 {
+    font-size: 50px;
     font-weight: 600;
     color: #fff;
+}
+.page-subscribe p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #dfe8ff;
 }
 .page-subscribe span {
     font-size: 14px;
@@ -177,6 +230,8 @@ h1 {
     text-transform: uppercase;
     display: block;
     letter-spacing: 2px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 .page-software h2 {
     font-size:50px;
@@ -289,7 +344,17 @@ h1 {
 
 /* page */
 .page-header {
-    background-image: url(../image/picture1)
+    background-image: url(../image/fon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 53px 0 330px 0;
+    position: relative;
+}
+.page-company {
+    background-image: url(../image/fontwo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 106px 0 99px;
 }
 .page-stat, .page-screen {
     background-color: #edf6ff;
@@ -302,4 +367,18 @@ h1 {
 }
 .page-screen {
     padding: 116px 0 0 0;
+}
+.page-subscribe {
+    background: rgba(10,32,144,1);
+    background: -moz-linear-gradient(-45deg, rgba(10,32,144,1) 0%, rgba(35,120,205,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(10,32,144,1)), color-stop(100%, rgba(35,120,205,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(10,32,144,1) 0%, rgba(35,120,205,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(10,32,144,1) 0%, rgba(35,120,205,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(10,32,144,1) 0%, rgba(35,120,205,1) 100%);
+    background: linear-gradient(135deg, rgba(10,32,144,1) 0%, rgba(35,120,205,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a2090', endColorstr='#2378cd', GradientType=1 );
+}
+.imrobot {
+    display: flex;
+    justify-content: right;
 }
