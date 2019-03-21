@@ -114,6 +114,7 @@ h1 {
     padding: 20px 40px;
     border-radius: 30px;
     transition: 0.3s;
+
 }
 .bth-primary:hover {
     color:#1085e4;
@@ -306,8 +307,8 @@ h1 {
     background-image: url(../image/ic7.png);
     background-repeat: no-repeat;
     background-position: 1px 0;
-    width: 117px;
-    height: 98px;
+    width: 62px;
+    height: 61px;
 }
 .page-subscribe h2 {
     font-size: 50px;
@@ -324,13 +325,36 @@ h1 {
     font-weight: 700;
     text-transform: uppercase;
     color: #c4d2dd;
+    margin-bottom: 20px;
+    margin-top: 27px;
+    letter-spacing: 3.5px;
 }
 .page-app-list {
     padding: 0;
     list-style-type: none;
+    margin-left: 6px;
 }
 .page-app-list>li>a {
-    background-image: url()
+    background-image: url(../image/gaps.png);
+    display: block;
+    width: 185px;
+    height: 77px;
+    background-repeat: no-repeat;
+}
+.page-app-list>li>a.page-app-android{
+    background-position: 0 0;
+}
+.page-app-list>li>a.page-app-ios{
+    background-position: -191px 0;
+}
+.page-app-list>li{
+    display: inline-block;
+}
+.content-app{
+    width: 55%;
+}
+.content-app .title-h2{
+    margin-bottom: 31px;
 }
 .page-subscribe span {
     font-size: 14px;
@@ -352,6 +376,8 @@ h1 {
     font-weight:700;
     color: #6e7ea9;
 }
+
+
 .page-stat span {
     font-size: 16px;
     font-weight: 800;
@@ -366,17 +392,21 @@ h1 {
     color: #192b59;
 }
 .page-app h2 {
-    font-size:50px;
+    font-size:52px;
     font-weight: 600;
     color: #192b59;
 }
 .page-app p {
-
+    margin-left: 6px;
 }
 .page-analytics h2 {
     font-size: 50px;
     font-weight: 600;
     color: #192b59;
+}
+.flex-an{
+    display: flex;
+    justify-content: space-between;
 }
 .page-analytics a {
     font-size: 12px;
@@ -627,4 +657,85 @@ div .active li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.page-app{
+    padding: 69px 0 39px 0;
+}
+.page-app .wrap{
+    position: relative;
+}
+.page-analytics{
+    background-image: url(../image/bg90.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 176px 0 122px 0;
+    background-position: -329px 7px;
+}
+.video-app{
+    position: absolute;
+    top: -57px;
+    right: -160px;
+}
+.width-2{
+    flex-basis: 55%;
+}
+.title-h2pa{
+    font-size: 50px;
+    font-weight: 600;
+    color: #192b59;
+    line-height: 1.2;
+    letter-spacing: -1.5px; 
+    margin: 0;
+    padding: 41px 0 0 0; 
+}
+.page-an-tx{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.karta{
+    width: 435px;
+    height: 335px;
+}
+.flex-etid{
+    display: flex;
+    justify-content: space-between;
+}
+.width-3{
+    width: 635px;
+    margin-left: 40px;
+}
+.etid{
+    padding-top: 135px;
+    background-image: url(../image/bg91.png);
+    background-repeat: no-repeat;
+    background-position: 1121px -91px;
+}
+.width-3 p{
+    margin-bottom: 60px;
+}
+.sdvig{
+    margin-bottom: 194px;
+}
+.easy{
+    font-size: 50px;
+    line-height: 50px;
+    width: 468px;
+    color: #192b59; 
+    margin-top: 35px;
+    margin-bottom: 30px;
+
+}
+.width-3 a{
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 2.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #1085e4;
+    border: 1px solid #1085e4;
+    padding: 20px 63px;
+    border-radius: 30px;
+    transition: 0.3s;
+
+}
 }
