@@ -231,7 +231,6 @@ h1 {
 }
 .grid-item-5 {
     grid-area: f;
-    box-shadow: 0 5px 4px rgba(0, 0, 0, .2);
 }
 .grid-item-6 {
     grid-area: g;
@@ -254,7 +253,7 @@ h1 {
 }
 .grid-item {
     text-align: center;
-    box-shadow: 0 5px 0 #f5f5f5;
+    box-shadow: 0 9px 20px #f4f4f4;
 }
 .grid-item h3 {
     font-size: 20px;
@@ -455,6 +454,13 @@ h1 {
     font-size: 14px;
     line-height: 1.8;
 }
+
+
+.page-software-list::-webkit-scrollbar { width: 4px; height: 4px;}
+.page-software-list::-webkit-scrollbar-button {  background-color: #1085e4; }
+.page-software-list::-webkit-scrollbar-track-piece { background-color: #f3f6ff;}
+.page-software-list::-webkit-scrollbar-thumb { height: 50px; background-color: #1085e4; border-radius: 10px;}
+
 .list-stat {
     display:flex;
     list-style-type: none;
@@ -612,6 +618,53 @@ div .active li {
     left: -531px;
 }
 
+.box-clients {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 63px;
+    margin-bottom: 141px;
+}
+.box-clients-item{
+    background-color: #fff;
+    padding: 21px 42px;
+    border-radius: 10px;
+    flex-basis: 31.5%;
+    box-sizing: border-box;
+    font-size: 14px;
+    box-shadow: 0 9px 20px #f4f4f4;
+}
+.box-clients-item .name{
+    color:#000958;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 0;
+    letter-spacing: -0.6px;
+    line-height: 1.1px;
+}
+
+.box-clients-item .position{
+    color: #1085e4;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    letter-spacing: 3px;
+}
+.box-clients-item p{
+    margin-bottom: 4px;
+}
+
+.box-info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 16px;
+}
+.box-info div{
+    padding-left: 17px;
+}
+
+
 /* page */
 .page-header {
     background-image: url(../image/fon.png);
@@ -738,4 +791,33 @@ div .active li {
     transition: 0.3s;
 
 }
+.page-clients{
+   position: relative;
+}
+.pg{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #85c8ff;
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 119px;
+    padding-top: 74px;
+    letter-spacing: 4px;
+}
+.pgz{
+    color: #fff;
+    font-size: 40px;
+
+}
+.page-clients::before{
+    content: '';
+    display: block;
+    background-image: url(../image/bg99.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    width: 97%;
+    height: 94%;
+    z-index: -1;
+    background-size: cover;
 }
